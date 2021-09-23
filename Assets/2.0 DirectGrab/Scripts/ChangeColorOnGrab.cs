@@ -8,13 +8,9 @@ public class ChangeColorOnGrab : MonoBehaviour
 {
     public XRGrabInteractable grabInteractable;
 
-    private void Awake()
-    {
-        grabInteractable = GetComponent<XRGrabInteractable>();
-    }
-
     private void OnEnable()
     {
+        grabInteractable = GetComponent<XRGrabInteractable>();
         grabInteractable.selectEntered.AddListener(ObjectAttachedEvent);
         grabInteractable.selectExited.AddListener(ObjectDetachedEvent);
     }
