@@ -108,6 +108,14 @@
                     "interactions": ""
                 },
                 {
+                    "name": "Teleport Select 2",
+                    "type": "Button",
+                    "id": "59a8faed-3b15-4e11-9404-3515f3e6162c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "Teleport Mode Activate",
                     "type": "Button",
                     "id": "a21db72c-4843-4839-b4d0-3ce8d287cb86",
@@ -486,6 +494,17 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "091760fb-f772-46f4-b00d-7bb7b73b992b",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Select 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -545,6 +564,14 @@
                     "name": "Teleport Select",
                     "type": "Button",
                     "id": "02e43582-8973-4940-af06-dff6158e3df2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Teleport Select 2",
+                    "type": "Button",
+                    "id": "addadf3b-8ff9-4414-b2e5-0d48981a6cf4",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -917,6 +944,17 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "886d1a5b-f6bf-4fb2-9fa3-ae52c535d697",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Select 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
